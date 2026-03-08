@@ -16,6 +16,7 @@
 - [09-prompt-engineering](lessons/09-prompt-engineering.md) - Prompt Engineering：系统提示词设计
 - [10-session-management](lessons/10-session-management.md) - Session Management：会话管理
 - [11-observability](lessons/11-observability.md) - Observability：可观测性
+- [12-concurrent-tool-execution](lessons/12-concurrent-tool-execution.md) - 并发工具执行：让 Agent 一心多用
 
 ### 进阶篇
 - (更新中...)
