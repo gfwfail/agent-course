@@ -18,6 +18,7 @@
 - [11-observability](lessons/11-observability.md) - Observability：可观测性
 - [12-concurrent-tool-execution](lessons/12-concurrent-tool-execution.md) - 并发工具执行：让 Agent 一心多用
 - [13-state-persistence](lessons/13-state-persistence.md) - State Persistence：状态持久化
+- [14-agent-testing](lessons/14-agent-testing.md) - Agent Testing：如何测试 AI Agent
 
 ### 进阶篇
 - (更新中...)
