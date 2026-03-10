@@ -27,6 +27,7 @@
 - [20-event-driven-architecture](lessons/20-event-driven-architecture.md) - Event-Driven Architecture：事件驱动架构
 - [21-multimodal-input](lessons/21-multimodal-input.md) - Multi-Modal Input：多模态输入处理
 - [22-cost-optimization](lessons/22-cost-optimization.md) - Cost Optimization：Agent 成本优化策略
+- [23-structured-output](lessons/23-structured-output.md) - Structured Output：结构化输出
 
 ### 进阶篇
 - (更新中...)
