@@ -28,6 +28,7 @@
 - [21-multimodal-input](lessons/21-multimodal-input.md) - Multi-Modal Input：多模态输入处理
 - [22-cost-optimization](lessons/22-cost-optimization.md) - Cost Optimization：Agent 成本优化策略
 - [23-structured-output](lessons/23-structured-output.md) - Structured Output：结构化输出
+- [24-tool-policy-pipeline](lessons/24-tool-policy-pipeline.md) - Tool Policy Pipeline：工具策略管道
 
 ### 进阶篇
 - (更新中...)
