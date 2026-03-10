@@ -24,6 +24,7 @@
 - [17-tool-validation-type-safety](lessons/17-tool-validation-type-safety.md) - Tool Validation & Type Safety：工具参数验证与类型安全
 - [18-agent-debugging](lessons/18-agent-debugging.md) - Agent Debugging & Troubleshooting：Agent 调试与排错
 - [19-caching-strategies](lessons/19-caching-strategies.md) - Caching Strategies：Agent 缓存策略
+- [20-event-driven-architecture](lessons/20-event-driven-architecture.md) - Event-Driven Architecture：事件驱动架构
 
 ### 进阶篇
 - (更新中...)
