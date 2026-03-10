@@ -25,6 +25,7 @@
 - [18-agent-debugging](lessons/18-agent-debugging.md) - Agent Debugging & Troubleshooting：Agent 调试与排错
 - [19-caching-strategies](lessons/19-caching-strategies.md) - Caching Strategies：Agent 缓存策略
 - [20-event-driven-architecture](lessons/20-event-driven-architecture.md) - Event-Driven Architecture：事件驱动架构
+- [21-multimodal-input](lessons/21-multimodal-input.md) - Multi-Modal Input：多模态输入处理
 
 ### 进阶篇
 - (更新中...)
