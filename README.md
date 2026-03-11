@@ -34,6 +34,7 @@
 - [27-dynamic-tool-loading](lessons/27-dynamic-tool-loading.md) - Dynamic Tool Loading：动态工具加载
 - [28-graceful-degradation](lessons/28-graceful-degradation.md) - Graceful Degradation：Agent 优雅降级
 - [29-context-injection](lessons/29-context-injection.md) - Context Injection：上下文注入
+- [30-tool-timeout-cancellation](lessons/30-tool-timeout-cancellation.md) - Tool Timeout & Cancellation：工具超时与取消机制
 
 ### 进阶篇
 - (更新中...)
