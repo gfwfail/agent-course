@@ -33,6 +33,7 @@
 - [26-idempotency-retry](lessons/26-idempotency-retry.md) - Idempotency & Retry：幂等性与重试模式
 - [27-dynamic-tool-loading](lessons/27-dynamic-tool-loading.md) - Dynamic Tool Loading：动态工具加载
 - [28-graceful-degradation](lessons/28-graceful-degradation.md) - Graceful Degradation：Agent 优雅降级
+- [29-context-injection](lessons/29-context-injection.md) - Context Injection：上下文注入
 
 ### 进阶篇
 - (更新中...)
