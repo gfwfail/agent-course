@@ -35,6 +35,7 @@
 - [28-graceful-degradation](lessons/28-graceful-degradation.md) - Graceful Degradation：Agent 优雅降级
 - [29-context-injection](lessons/29-context-injection.md) - Context Injection：上下文注入
 - [30-tool-timeout-cancellation](lessons/30-tool-timeout-cancellation.md) - Tool Timeout & Cancellation：工具超时与取消机制
+- [31-agent-reflection](lessons/31-agent-reflection.md) - Agent Reflection：Agent 自我反思
 
 ### 进阶篇
 - (更新中...)
