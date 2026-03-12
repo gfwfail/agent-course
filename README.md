@@ -40,6 +40,7 @@
 - [33-subagents-task-dispatch](lessons/33-subagents-task-dispatch.md) - Subagents 任务分发与协作
 - [34-rag-retrieval-augmented-generation](lessons/34-rag-retrieval-augmented-generation.md) - RAG：检索增强生成，让 Agent 拥有外部长期记忆
 - [35-prompt-chaining](lessons/35-prompt-chaining.md) - Prompt Chaining：提示链，让 Agent 完成复杂任务
+- [36-workflow-orchestration](lessons/36-workflow-orchestration.md) - Workflow Orchestration：工作流编排，让 Agent 按依赖关系协调复杂任务
 
 ### 进阶篇
 - (更新中...)
