@@ -43,6 +43,7 @@
 - [36-workflow-orchestration](lessons/36-workflow-orchestration.md) - Workflow Orchestration：工作流编排，让 Agent 按依赖关系协调复杂任务
 - [37-long-running-tasks-checkpointing](lessons/37-long-running-tasks-checkpointing.md) - Long-Running Tasks & Checkpointing：长任务与断点续传
 - [38-agent-security-authentication](lessons/38-agent-security-authentication.md) - Agent Security & Authentication：Agent 安全与认证
+- [39-agent-evaluation-framework](lessons/39-agent-evaluation-framework.md) - Agent 评估框架（Evals）：让 Agent 质量可度量
 
 ### 进阶篇
 - (更新中...)
