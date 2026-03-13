@@ -47,7 +47,7 @@
 - [40-agent-fsm](lessons/40-agent-fsm.md) - Agent FSM：用有限状态机让 Agent 行为可预测
 
 ### 进阶篇
-- (更新中...)
+- [41-tool-composition-patterns](lessons/41-tool-composition-patterns.md) - Tool Composition Patterns：工具组合模式，Pipeline/Fan-out/Reduce/条件分支/重试循环
 
 ### 实战篇
 - (更新中...)
