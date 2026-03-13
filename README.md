@@ -51,6 +51,9 @@
 - [42-output-validation-self-correction](lessons/42-output-validation-self-correction.md) - Output Validation & Self-Correction：输出校验与自我纠错
 - [43-planning-task-decomposition](lessons/43-planning-task-decomposition.md) - Planning & Task Decomposition：任务规划与分解，ReAct/Plan-and-Execute/自适应规划
 
+### 安全篇
+- [44-prompt-injection-defense](lessons/44-prompt-injection-defense.md) - Prompt Injection 攻击与防御：保护 Agent 不被外部内容劫持
+
 ### 实战篇
 - (更新中...)
 
