@@ -65,6 +65,7 @@
 - [52-intent-recognition-routing](lessons/52-intent-recognition-routing.md) - Intent Recognition & Routing：意图识别与路由，让 Agent 听懂"你想干什么"并精准分发
 - [53-agent-memory-types](lessons/53-agent-memory-types.md) - Agent 记忆类型：Episodic / Semantic / Procedural 三种记忆的实现与应用
 - [54-semantic-caching](lessons/54-semantic-caching.md) - 语义缓存：用向量相似度降低 API 调用成本
+- [55-agent-persona-session-identity](lessons/55-agent-persona-session-identity.md) - Agent Persona & Session Identity：角色持久化与身份一致性，SOUL.md 机制与跨平台人格统一
 
 ## 资源
 
