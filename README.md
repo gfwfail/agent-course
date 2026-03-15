@@ -64,6 +64,7 @@
 - [51-agent-versioning-ab-testing](lessons/51-agent-versioning-ab-testing.md) - Agent Versioning & A/B Testing：行为版本管理与灰度测试，像部署代码一样部署 Agent 行为
 - [52-intent-recognition-routing](lessons/52-intent-recognition-routing.md) - Intent Recognition & Routing：意图识别与路由，让 Agent 听懂"你想干什么"并精准分发
 - [53-agent-memory-types](lessons/53-agent-memory-types.md) - Agent 记忆类型：Episodic / Semantic / Procedural 三种记忆的实现与应用
+- [54-semantic-caching](lessons/54-semantic-caching.md) - 语义缓存：用向量相似度降低 API 调用成本
 
 ## 资源
 
