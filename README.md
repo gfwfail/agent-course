@@ -78,6 +78,7 @@
 - [65-agent-workflow-dsl](lessons/65-agent-workflow-dsl.md) - Agent Workflow DSL（声明式工作流管道）：用 YAML/代码定义 Agent 执行流，实现自动并行、条件分支、可版本化的工作流
 - [66-knowledge-graph-agent-memory](lessons/66-knowledge-graph-agent-memory.md) - Knowledge Graph for Agent Memory（知识图谱增强记忆）：用图结构存储实体关系，让 Agent 推理"关联"而不只是"相似"
 - [67-semantic-tool-selection](lessons/67-semantic-tool-selection.md) - Semantic Tool Selection（语义工具选择）：用向量相似度从大型工具集中智能预筛，只给 LLM 最相关的 Top-K 工具
+- [68-sliding-window-summarization](lessons/68-sliding-window-summarization.md) - Sliding Window + Dynamic Summarization（滑动窗口与动态摘要）：超长对话的 Token 成本控制，保留最近原文 + 异步压缩历史为摘要
 
 ## 资源
 
