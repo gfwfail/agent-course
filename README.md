@@ -83,6 +83,8 @@
 - [70-trust-hierarchies-permission-delegation](lessons/70-trust-hierarchies-permission-delegation.md) - Agent Trust Hierarchies & Permission Delegation（信任层级与权限委托）：数据≠指令，子代理权限不升级，防 Prompt Injection 的来源标记法
 - [71-agent-rollback-state-recovery](lessons/71-agent-rollback-state-recovery.md) - Agent Rollback & State Recovery（回滚与状态恢复）：Saga 模式处理分布式副作用，每步配补偿操作，失败时自动回滚
 
+- [72-multi-agent-negotiation](lessons/72-multi-agent-negotiation.md) - Multi-Agent Negotiation（多 Agent 协商与共识机制）：投票/拍卖/对话协商三种模式，Agent 间无中心化协调
+
 ## 资源
 
 - [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) - Python 教学实现
