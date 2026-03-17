@@ -80,6 +80,7 @@
 - [67-semantic-tool-selection](lessons/67-semantic-tool-selection.md) - Semantic Tool Selection（语义工具选择）：用向量相似度从大型工具集中智能预筛，只给 LLM 最相关的 Top-K 工具
 - [68-sliding-window-summarization](lessons/68-sliding-window-summarization.md) - Sliding Window + Dynamic Summarization（滑动窗口与动态摘要）：超长对话的 Token 成本控制，保留最近原文 + 异步压缩历史为摘要
 - [69-backpressure-flow-control](lessons/69-backpressure-flow-control.md) - Agent 背压与流量控制（Backpressure & Flow Control）：信号量、令牌桶、有界队列、自适应背压，让 Agent 在流量峰值下优雅降级而不崩溃
+- [70-trust-hierarchies-permission-delegation](lessons/70-trust-hierarchies-permission-delegation.md) - Agent Trust Hierarchies & Permission Delegation（信任层级与权限委托）：数据≠指令，子代理权限不升级，防 Prompt Injection 的来源标记法
 
 ## 资源
 
