@@ -84,6 +84,8 @@
 - [71-agent-rollback-state-recovery](lessons/71-agent-rollback-state-recovery.md) - Agent Rollback & State Recovery（回滚与状态恢复）：Saga 模式处理分布式副作用，每步配补偿操作，失败时自动回滚
 
 - [72-multi-agent-negotiation](lessons/72-multi-agent-negotiation.md) - Multi-Agent Negotiation（多 Agent 协商与共识机制）：投票/拍卖/对话协商三种模式，Agent 间无中心化协调
+- [73-agent-self-healing](lessons/73-agent-self-healing.md) - Agent Self-Healing（Agent 自愈机制）：错误分类、自动诊断、修复动作注册、断点续传，让 Agent 遇错自愈而非遇错即停
+- [74-contract-testing-agents](lessons/74-contract-testing-agents.md) - Agent 契约测试（Contract Testing）：用 JSON Schema 契约保障 Agent、Tool、LLM 之间接口稳定，独立迭代不互相破坏
 
 ## 资源
 
