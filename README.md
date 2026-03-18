@@ -90,6 +90,7 @@
 - [76-structured-thinking-patterns](lessons/76-structured-thinking-patterns.md) - Structured Thinking Patterns（结构化思维模式）：CoT / ToT / GoT 三种推理架构，从线性思维链到树形探索到图状网状推理
 - [77-token-budget-management](lessons/77-token-budget-management.md) - Token Budget Management（Token 预算管理）：给 Agent 思考设预算，自适应分配 budget_tokens，在质量与成本间找最优平衡点
 - [78-cron-driven-agent-automation](lessons/78-cron-driven-agent-automation.md) - Cron 驱动的自主 Agent 工作流：让 Agent 按计划主动执行任务，at/every/cron 三种调度模式 + 隔离子会话 + 幂等性保障
+- [79-output-formatting-multiplatform](lessons/79-output-formatting-multiplatform.md) - Agent 输出格式化与多平台渲染：Telegram/Discord/CLI/Web 平台能力差异、Formatter 分层架构、结构化输出 + 渲染层解耦、长消息自动切割
 
 ## 资源
 
