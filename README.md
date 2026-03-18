@@ -93,6 +93,7 @@
 - [79-output-formatting-multiplatform](lessons/79-output-formatting-multiplatform.md) - Agent 输出格式化与多平台渲染：Telegram/Discord/CLI/Web 平台能力差异、Formatter 分层架构、结构化输出 + 渲染层解耦、长消息自动切割
 - [80-cold-start-optimization](lessons/80-cold-start-optimization.md) - Agent 冷启动优化（Cold-Start Optimization）：HTTP 连接池预热、工具预加载、LLM Warmup Ping、技能文件缓存、流式首 Token 时间优化
 - [81-adaptive-sampling-temperature](lessons/81-adaptive-sampling-temperature.md) - Agent 自适应采样与温度控制（Adaptive Sampling & Temperature Control）：按任务类型动态调整 temperature/top_p，意图分类路由 + 失败反馈降温重试 + 工具元数据携带采样偏好
+- [82-dynamic-system-prompt](lessons/82-dynamic-system-prompt.md) - Agent 动态系统提示词（Dynamic System Prompt）：运行时按需组装 system prompt，分层注入角色定义/用户上下文/记忆片段/权限工具/渠道规则，Token 预算控制
 
 ## 资源
 
