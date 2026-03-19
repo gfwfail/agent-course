@@ -97,6 +97,7 @@
 - [83-dag-execution-engine](lessons/83-dag-execution-engine.md) - Agent DAG 执行引擎（Directed Acyclic Graph）：用有向无环图建模工作流，拓扑排序 + 并行波次执行，依赖结果自动注入，消除不必要的串行等待
 - [84-prompt-caching-cache-control](lessons/84-prompt-caching-cache-control.md) - Prompt Caching（提示词缓存）：用 cache_control 把静态 system prompt / 工具列表"钉"在服务器端，缓存命中时成本降低 90%，延迟降低 85%
 - [85-tool-call-prediction-prefetching](lessons/85-tool-call-prediction-prefetching.md) - Tool Call Prediction & Prefetching（工具调用预测与预取）：在 LLM 思考期间预判下一步工具并提前执行，命中时工具延迟归零；静态规则 + 转移矩阵概率预测，仅对幂等只读操作预取
+- [86-context-externalization-cross-session](lessons/86-context-externalization-cross-session.md) - Context Externalization & Cross-Session Sharing（上下文外部化与跨会话共享）：把 Agent context 从进程内存搬到 Redis/DB，实现崩溃恢复、多实例共享、用户跨会话记忆；追加写 + 乐观锁 + 自动压缩
 
 ## 资源
 
