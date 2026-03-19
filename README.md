@@ -101,6 +101,7 @@
 - [87-collaborative-blackboard-pattern](lessons/87-collaborative-blackboard-pattern.md) - Collaborative Blackboard Pattern（协作记忆黑板模式）：多 Agent 围绕共享黑板协作；slot 粒度设计、乐观锁写入、Pull/Push 两种控制器、OpenClaw 文件系统黑板实现
 - [88-opentelemetry-distributed-tracing](lessons/88-opentelemetry-distributed-tracing.md) - OpenTelemetry 分布式追踪实战：给 Agent Turn/LLM 调用/工具执行埋 Span；W3C traceparent 跨 Sub-agent 传播；采样策略；本地 Jaeger 搭建；日志/指标/链路三合一可观测性
 - [89-webhook-driven-architecture](lessons/89-webhook-driven-architecture.md) - Agent Webhook 驱动架构（Webhook-Driven Architecture）：让事件主动找 Agent 而不是轮询；验签防伪造、幂等键去重、202 快速返回；OpenClaw Cron at 模式实现 Webhook → 隔离 Sub-agent 流水线
+- [90-prompt-template-engine](lessons/90-prompt-template-engine.md) - Agent Prompt Template Engine（提示词模板引擎）：Prompt 是代码，变量插值/Fragment 复用/条件渲染/版本管理/单元测试，像工程化代码一样管理 Prompt
 
 ## 资源
 
