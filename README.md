@@ -102,6 +102,7 @@
 - [88-opentelemetry-distributed-tracing](lessons/88-opentelemetry-distributed-tracing.md) - OpenTelemetry 分布式追踪实战：给 Agent Turn/LLM 调用/工具执行埋 Span；W3C traceparent 跨 Sub-agent 传播；采样策略；本地 Jaeger 搭建；日志/指标/链路三合一可观测性
 - [89-webhook-driven-architecture](lessons/89-webhook-driven-architecture.md) - Agent Webhook 驱动架构（Webhook-Driven Architecture）：让事件主动找 Agent 而不是轮询；验签防伪造、幂等键去重、202 快速返回；OpenClaw Cron at 模式实现 Webhook → 隔离 Sub-agent 流水线
 - [90-prompt-template-engine](lessons/90-prompt-template-engine.md) - Agent Prompt Template Engine（提示词模板引擎）：Prompt 是代码，变量插值/Fragment 复用/条件渲染/版本管理/单元测试，像工程化代码一样管理 Prompt
+- [91-multi-model-fallback-chain](lessons/91-multi-model-fallback-chain.md) - Agent 多模型回退链（Multi-Model Fallback Chain）：主模型挂了/限速/超预算自动切换，健康监控+冷却期+任务类型路由，用户无感知
 
 ## 资源
 
