@@ -110,6 +110,7 @@
 - [96-request-deduplication-coalescing](lessons/96-request-deduplication-coalescing.md) - Agent 工具调用去重与请求合并（Request Deduplication & Coalescing）：多 Sub-agent 并发同一请求时去重共享 Promise，批量请求用 DataLoader 合并成一次 IN 查询，透明中间件无需改业务逻辑
 - [97-adaptive-timeout-hedged-requests](lessons/97-adaptive-timeout-hedged-requests.md) - Agent 自适应超时与对冲请求（Adaptive Timeout & Hedged Requests）：基于 P95 历史延迟动态计算超时，P50 后发对冲请求取最快响应，消灭 P99 长尾延迟，延迟降低 40-60%
 - [98-plugin-architecture](lessons/98-plugin-architecture.md) - Agent 插件化架构（Plugin Architecture）：工具集动态扩展而非写死；ToolRegistry 注册表、文件系统扫描动态加载、生命周期 hooks、权限沙箱隔离、插件间事件总线通信；OpenClaw Skills 即此模式的落地实现
+- [99-nl2sql-nl2api](lessons/99-nl2sql-nl2api.md) - Agent NL2SQL & NL2API（自然语言转结构化查询）：Schema 注入策略、SQL 安全白名单验证、错误自修复循环（成功率 75%→95%）、Few-Shot 提升准确率、pi-mono 工具实现参考
 
 ## 资源
 
