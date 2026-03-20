@@ -111,6 +111,7 @@
 - [97-adaptive-timeout-hedged-requests](lessons/97-adaptive-timeout-hedged-requests.md) - Agent 自适应超时与对冲请求（Adaptive Timeout & Hedged Requests）：基于 P95 历史延迟动态计算超时，P50 后发对冲请求取最快响应，消灭 P99 长尾延迟，延迟降低 40-60%
 - [98-plugin-architecture](lessons/98-plugin-architecture.md) - Agent 插件化架构（Plugin Architecture）：工具集动态扩展而非写死；ToolRegistry 注册表、文件系统扫描动态加载、生命周期 hooks、权限沙箱隔离、插件间事件总线通信；OpenClaw Skills 即此模式的落地实现
 - [99-nl2sql-nl2api](lessons/99-nl2sql-nl2api.md) - Agent NL2SQL & NL2API（自然语言转结构化查询）：Schema 注入策略、SQL 安全白名单验证、错误自修复循环（成功率 75%→95%）、Few-Shot 提升准确率、pi-mono 工具实现参考
+- [100-automatic-prompt-optimization](lessons/100-automatic-prompt-optimization.md) - 🎉 Agent 自动提示词优化（Automatic Prompt Optimization）：Few-Shot 自动筛选 / 指令自动改写（Meta-LLM）/ A/B 测试 + Thompson Sampling 晋级，让 Agent 基于执行反馈持续自我进化
 
 ## 资源
 
