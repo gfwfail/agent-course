@@ -117,6 +117,7 @@
 - [103-tool-call-hallucination-detection](lessons/103-tool-call-hallucination-detection.md) - Agent 工具调用幻觉检测与修复（Tool Call Hallucination Detection & Recovery）：拦截层+诊断+修复三层防御，自动修复类型错误/多余参数，不可修复的结构化反馈给 LLM 重试，把 throw 变成 tool_result
 - [104-tool-mocking-test-doubles](lessons/104-tool-mocking-test-doubles.md) - Agent 工具 Mock 与测试替身（Tool Mocking & Test Doubles）：Stub/Mock/Spy/Record-Replay 四种模式，ChaosWrapper 注入故障，离线 CI 零成本，测试金字塔三层策略（Unit/Integration/E2E）
 - [105-self-learning-experience-accumulation](lessons/105-self-learning-experience-accumulation.md) - Agent 自主学习与经验积累（Self-Learning & Experience Accumulation）：任务完成后 LLM 提炼经验、向量化存储、下次语义检索注入 prompt，TTL 过期 + 成功率反馈闭环，让 Agent 真正"越用越好"
+- [106-distributed-locking-concurrency](lessons/106-distributed-locking-concurrency.md) - Agent 分布式锁与并发控制（Distributed Locking & Concurrency Control）：多实例 Agent 同时跑时防止资源冲突；Redis SET NX PX + Lua 原子释放；乐观锁 CAS；看门狗续期；Cron 单实例保障；死锁预防
 
 ## 资源
 
