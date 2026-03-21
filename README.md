@@ -120,6 +120,7 @@
 - [106-distributed-locking-concurrency](lessons/106-distributed-locking-concurrency.md) - Agent 分布式锁与并发控制（Distributed Locking & Concurrency Control）：多实例 Agent 同时跑时防止资源冲突；Redis SET NX PX + Lua 原子释放；乐观锁 CAS；看门狗续期；Cron 单实例保障；死锁预防
 - [107-structured-logging-trace-correlation](lessons/107-structured-logging-trace-correlation.md) - Agent 结构化日志与链路关联（Structured Logging & Trace Correlation）：JSON 格式日志设计、AsyncLocalStorage 自动传播 traceId/spanId、工具调用日志中间件、Sub-agent 跨进程 Trace 继承、jq/Loki 日志聚合查询实战
 - [108-health-check-auto-restart](lessons/108-health-check-auto-restart.md) - Agent 健康检查与自动重启（Health Check & Auto-Restart）：Liveness/Readiness/Startup 三种探针、进程内 Watchdog 自救、PM2/systemd 外部守卫、原子 Checkpoint 状态保存、重启后任务恢复
+- [109-batch-processing-mini-batch](lessons/109-batch-processing-mini-batch.md) - Agent 批处理与微批优化（Batch Processing & Mini-Batch Optimization）：Anthropic Batch API 省 50% 成本、微批聚合器、优先级批处理队列、内容审核实战、关键调优指标
 
 ## 资源
 
