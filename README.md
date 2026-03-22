@@ -125,6 +125,7 @@
 - [111-schema-driven-tool-generation](lessons/111-schema-driven-tool-generation.md) - Agent Schema 驱动工具自动生成（Schema-Driven Tool Auto-Generation）：从 OpenAPI spec 自动生成工具定义 + HTTP 执行器，告别手写重复代码；路径参数/Query/RequestBody 自动解析；工具过滤策略；MCP 协议即此模式的标准化落地
 - [112-cross-process-state-broadcast](lessons/112-cross-process-state-broadcast.md) - Agent 跨进程状态广播（Cross-Process State Broadcast with Pub/Sub）：Redis Pub/Sub 作为多实例 Agent 消息总线；配置热更新广播、任务完成通知、全局限流协调；幂等消费 + 忽略自发事件；Pub/Sub vs Streams vs Kafka 场景选型
 - [113-streaming-thinking-progressive-output](lessons/113-streaming-thinking-progressive-output.md) - Agent 流式思维与渐进输出（Streaming Thinking & Progressive Output）：Extended Thinking Token 流式展示、流式工具参数解析、并行工具渐进结果、首 Token 时间优化、流式中断取消、Streaming Markdown 渲染；让用户边看 AI 思考边看结果
+- [114-load-shedding-priority-sla](lessons/114-load-shedding-priority-sla.md) - Agent 负载卸载与优先级 SLA（Load Shedding & Priority SLA）：过载时主动丢弃低优先级任务保障核心 SLA；优先级感知队列、抢占式调度、工具中间件集成、Cron 任务可跳过设计、优雅降级响应、多层防御体系（限流→背压→卸载）
 
 ## 资源
 
