@@ -122,6 +122,7 @@
 - [108-health-check-auto-restart](lessons/108-health-check-auto-restart.md) - Agent 健康检查与自动重启（Health Check & Auto-Restart）：Liveness/Readiness/Startup 三种探针、进程内 Watchdog 自救、PM2/systemd 外部守卫、原子 Checkpoint 状态保存、重启后任务恢复
 - [109-batch-processing-mini-batch](lessons/109-batch-processing-mini-batch.md) - Agent 批处理与微批优化（Batch Processing & Mini-Batch Optimization）：Anthropic Batch API 省 50% 成本、微批聚合器、优先级批处理队列、内容审核实战、关键调优指标
 - [110-shadow-testing-canary-validation](lessons/110-shadow-testing-canary-validation.md) - Agent 影子测试与金丝雀验证（Shadow Testing & Canary Validation）：新版并行影子运行、差异对比分析、分阶段流量切换（1%→10%→50%→100%）、自动晋级/回滚、Cron 定时健康检查
+- [111-schema-driven-tool-generation](lessons/111-schema-driven-tool-generation.md) - Agent Schema 驱动工具自动生成（Schema-Driven Tool Auto-Generation）：从 OpenAPI spec 自动生成工具定义 + HTTP 执行器，告别手写重复代码；路径参数/Query/RequestBody 自动解析；工具过滤策略；MCP 协议即此模式的标准化落地
 
 ## 资源
 
