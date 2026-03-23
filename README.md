@@ -131,6 +131,7 @@
 - [117-graceful-shutdown-task-migration](lessons/117-graceful-shutdown-task-migration.md) - Agent 优雅关机与任务迁移（Graceful Shutdown & Task Migration）：SIGTERM 三步协议（停止接单→drain→迁移），AbortController 取消传播，Redis checkpoint + re-queue，K8s terminationGracePeriod 配置实战
 - [118-cost-attribution-usage-quotas](lessons/118-cost-attribution-usage-quotas.md) - Agent 成本归因与用量配额（Cost Attribution & Usage Quotas）：按用户/功能/模型多维度追踪 Token 成本，Redis 累计配额，超限拒绝 + 阈值告警，Cron 定时报表，pi-mono ModelRouter hook 实战
 - [119-multi-modal-output-rich-media](lessons/119-multi-modal-output-rich-media.md) - Agent 多模态输出与富媒体响应（Multi-Modal Output & Rich Media Response）：输出类型注册表 + 平台能力矩阵，TTS/图片/文件/Canvas UI 工具设计，AUTO_DELIVER + NO_REPLY 模式，渐进式多模态交付，OpenClaw tts 工具实战
+- [120-tool-least-privilege](lessons/120-tool-least-privilege.md) - Agent 工具权限最小化原则（Tool Least Privilege）：三维权限模型（角色/会话/任务），动态工具过滤器，临时权限升级 + 人工审批 + TTL 自动过期，风险等级分级，pi-mono Agent Loop 实战
 
 ## 资源
 
