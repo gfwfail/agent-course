@@ -140,6 +140,7 @@
 - [126-declarative-tool-annotations](lessons/126-declarative-tool-annotations.md) - Agent 声明式工具注解（Declarative Tool Annotations & Decorator Pattern）：用 TypeScript 装饰器声明权限/缓存/重试/超时/限流元数据，运行时自动应用横切关注，从注解自动生成 LLM Schema，消灭样板代码
 - [127-tool-parameter-auto-completion](lessons/127-tool-parameter-auto-completion.md) - Agent 工具参数自动补全与上下文推断（Tool Parameter Auto-Completion & Contextual Inference）：从对话历史/工具调用记录/用户偏好三层推断缺失参数，置信度打分，透明提示，只问最关键的一个
 - [128-protocol-adapter-pattern](lessons/128-protocol-adapter-pattern.md) - Agent 协议适配器模式（Protocol Adapter Pattern）：统一 Anthropic/OpenAI/Gemini 消息格式，Agent 代码完全 Provider 无关，改一行配置切换底层模型，Adapter 无状态双向翻译
+- [129-conversation-summary-memory-sync](lessons/129-conversation-summary-memory-sync.md) - Agent 对话摘要与长期记忆同步（Conversation Summary & Long-Term Memory Sync）：三层记忆模型（工作/情景/语义）、LLM 驱动摘要提取、Cron 定期蒸馏、MEMORY.md 更新策略
 
 ## 资源
 
