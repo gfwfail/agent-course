@@ -144,6 +144,7 @@
 - [130-lazy-context-loading](lessons/130-lazy-context-loading.md) - Agent 懒加载上下文与按需数据注入（Lazy Context Loading & On-Demand Data Injection）：上下文注册表 + 目录模式、fetch_context 工具按需拉取、分层 TTL 缓存、预测性预加载、平均节省 70% token 消耗；OpenClaw Skills 即此模式的最佳实践
 - [131-multi-hop-reasoning-tool-chain](lessons/131-multi-hop-reasoning-tool-chain.md) - Agent 多跳推理与工具链编排（Multi-Hop Reasoning & Tool Chain Orchestration）：线性链/扇出并发/条件分支三种模式、跳数上限防护、中间结果压缩、Promise.all 并发化同级工具调用
 - [132-structured-concurrency](lessons/132-structured-concurrency.md) - Agent 结构化并发（Structured Concurrency）：TaskScope 任务树生命周期管理、AbortSignal 取消传播、Fail-Fast/Collect-All/Race 三种策略、零资源泄漏保证、与裸 Promise.all 的工程化升级
+- [133-tool-call-budget-control](lessons/133-tool-call-budget-control.md) - Agent 工具调用预算控制（Tool Call Budget Control）：次数/成本/时间三维预算、四级状态机（ok→warning→throttle→exceeded）、工具中间件透明注入、tools=[] 强制收敛、自适应预算估算
 
 ## 资源
 
