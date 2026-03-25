@@ -148,6 +148,7 @@
 - [134-tool-dry-run-mode](lessons/134-tool-dry-run-mode.md) - Agent 工具调用 Dry-Run 模式（Tool Call Dry-Run Mode）：执行前先演练、危险操作审批、DryRunToolRegistry + 两阶段执行、contextvar 线程安全控制、Telegram inline 审批集成
 - [135-adaptive-concurrency-control](lessons/135-adaptive-concurrency-control.md) - Agent 自适应并发控制（Adaptive Concurrency Control）：AIMD 算法动态调节并发度、Vegas 延迟感知算法、按工具类型分层限速、与 Agent Loop 集成、比固定并发吞吐高 58%
 - [136-dependency-injection-tool-factory](lessons/136-dependency-injection-tool-factory.md) - Agent 依赖注入与工具工厂（Dependency Injection & Tool Factory）：DI 容器/工具工厂/环境隔离/测试替换，让工具像乐高一样可组合可测试
+- [137-tool-versioning-backward-compatibility](lessons/137-tool-versioning-backward-compatibility.md) - Agent 工具版本管理与向后兼容（Tool Versioning & Backward Compatibility）：Schema 版本命名空间/参数自动迁移/废弃生命周期/灰度下线，工具也是 API，要像 API 一样管理
 
 ## 资源
 
