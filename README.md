@@ -147,6 +147,7 @@
 - [133-tool-call-budget-control](lessons/133-tool-call-budget-control.md) - Agent 工具调用预算控制（Tool Call Budget Control）：次数/成本/时间三维预算、四级状态机（ok→warning→throttle→exceeded）、工具中间件透明注入、tools=[] 强制收敛、自适应预算估算
 - [134-tool-dry-run-mode](lessons/134-tool-dry-run-mode.md) - Agent 工具调用 Dry-Run 模式（Tool Call Dry-Run Mode）：执行前先演练、危险操作审批、DryRunToolRegistry + 两阶段执行、contextvar 线程安全控制、Telegram inline 审批集成
 - [135-adaptive-concurrency-control](lessons/135-adaptive-concurrency-control.md) - Agent 自适应并发控制（Adaptive Concurrency Control）：AIMD 算法动态调节并发度、Vegas 延迟感知算法、按工具类型分层限速、与 Agent Loop 集成、比固定并发吞吐高 58%
+- [136-dependency-injection-tool-factory](lessons/136-dependency-injection-tool-factory.md) - Agent 依赖注入与工具工厂（Dependency Injection & Tool Factory）：DI 容器/工具工厂/环境隔离/测试替换，让工具像乐高一样可组合可测试
 
 ## 资源
 
