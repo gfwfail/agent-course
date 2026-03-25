@@ -152,6 +152,7 @@
 - [138-tool-call-replay-offline-debugging](lessons/138-tool-call-replay-offline-debugging.md) - Agent 工具调用回放与离线调试（Tool Call Replay & Offline Debugging）：录制真实工具调用序列、离线回放跳过 LLM、差异对比新旧版本输出、CI Golden Test、生产 Bug 本地复现，建立 Agent 离线调试基础设施
 - [138-execution-recording-time-travel-debug](lessons/138-execution-recording-time-travel-debug.md) - Agent 执行录制与时间旅行调试（Execution Recording & Time-Travel Debugging）：录制每次工具调用的输入/输出/时序，支持确定性回放、步骤级 Patch、渐进重执行；生产故障复现率 100%，调试不再靠猜
 - [139-tool-result-conflict-arbitration](lessons/139-tool-result-conflict-arbitration.md) - Agent 工具结果冲突检测与仲裁（Tool Result Conflict Detection & Arbitration）：多工具/多数据源返回矛盾答案时，自动检测冲突、评分可信度（权威性+时效性）、仲裁决策，分数相近时升级人工，告知 LLM 不确定性
+- [140-incremental-diff-change-detection](lessons/140-incremental-diff-change-detection.md) - Agent 增量 Diff 与变更检测（Incremental Diff & Change Detection）：指纹+快照+Diff 三层架构；ChangeSet 只传变化给 LLM；游标增量拉取替代全量扫描；适用于监控/同步/邮件/订单 Agent；OpenClaw Heartbeat 实战
 
 ## 资源
 
