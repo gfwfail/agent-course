@@ -149,6 +149,7 @@
 - [135-adaptive-concurrency-control](lessons/135-adaptive-concurrency-control.md) - Agent 自适应并发控制（Adaptive Concurrency Control）：AIMD 算法动态调节并发度、Vegas 延迟感知算法、按工具类型分层限速、与 Agent Loop 集成、比固定并发吞吐高 58%
 - [136-dependency-injection-tool-factory](lessons/136-dependency-injection-tool-factory.md) - Agent 依赖注入与工具工厂（Dependency Injection & Tool Factory）：DI 容器/工具工厂/环境隔离/测试替换，让工具像乐高一样可组合可测试
 - [137-tool-versioning-backward-compatibility](lessons/137-tool-versioning-backward-compatibility.md) - Agent 工具版本管理与向后兼容（Tool Versioning & Backward Compatibility）：Schema 版本命名空间/参数自动迁移/废弃生命周期/灰度下线，工具也是 API，要像 API 一样管理
+- [138-tool-call-replay-offline-debugging](lessons/138-tool-call-replay-offline-debugging.md) - Agent 工具调用回放与离线调试（Tool Call Replay & Offline Debugging）：录制真实工具调用序列、离线回放跳过 LLM、差异对比新旧版本输出、CI Golden Test、生产 Bug 本地复现，建立 Agent 离线调试基础设施
 - [138-execution-recording-time-travel-debug](lessons/138-execution-recording-time-travel-debug.md) - Agent 执行录制与时间旅行调试（Execution Recording & Time-Travel Debugging）：录制每次工具调用的输入/输出/时序，支持确定性回放、步骤级 Patch、渐进重执行；生产故障复现率 100%，调试不再靠猜
 
 ## 资源
