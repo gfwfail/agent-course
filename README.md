@@ -153,6 +153,7 @@
 - [138-execution-recording-time-travel-debug](lessons/138-execution-recording-time-travel-debug.md) - Agent 执行录制与时间旅行调试（Execution Recording & Time-Travel Debugging）：录制每次工具调用的输入/输出/时序，支持确定性回放、步骤级 Patch、渐进重执行；生产故障复现率 100%，调试不再靠猜
 - [139-tool-result-conflict-arbitration](lessons/139-tool-result-conflict-arbitration.md) - Agent 工具结果冲突检测与仲裁（Tool Result Conflict Detection & Arbitration）：多工具/多数据源返回矛盾答案时，自动检测冲突、评分可信度（权威性+时效性）、仲裁决策，分数相近时升级人工，告知 LLM 不确定性
 - [140-incremental-diff-change-detection](lessons/140-incremental-diff-change-detection.md) - Agent 增量 Diff 与变更检测（Incremental Diff & Change Detection）：指纹+快照+Diff 三层架构；ChangeSet 只传变化给 LLM；游标增量拉取替代全量扫描；适用于监控/同步/邮件/订单 Agent；OpenClaw Heartbeat 实战
+- [141-memory-decay-active-forgetting](lessons/141-memory-decay-active-forgetting.md) - Agent 记忆衰减与主动遗忘（Memory Decay & Active Forgetting）：Ebbinghaus 遗忘曲线数学模型；重要性×使用频率=稳定性；间隔重复强化；LLM 二次裁判防误杀；Redis Sorted Set 管理衰减时间戳；Cron 驱动异步 GC
 
 ## 资源
 
