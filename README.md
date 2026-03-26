@@ -157,6 +157,7 @@
 - [142-data-lineage-decision-provenance](lessons/142-data-lineage-decision-provenance.md) - Agent 数据血缘追踪与决策溯源（Data Lineage & Decision Provenance）：给每条数据打"出生证明"；LineageNode DAG 模型；工具调用/结果/推理/输出四类节点；祖先链溯源；Redis 持久化；Mermaid 可视化；合规报告生成
 - [143-tool-call-context-propagation](lessons/143-tool-call-context-propagation.md) - Agent 工具调用上下文传播（Tool Call Context Propagation）：AsyncLocalStorage 隐式传递 userId/traceId/permissions；工具函数无需显式传参；中间件自动日志关联；Sub-agent 跨进程序列化传播；Python contextvars 实现；权限装饰器集成
 - [144-chain-of-thought-verification](lessons/144-chain-of-thought-verification.md) - Agent 思维链验证与逻辑一致性检查（Chain-of-Thought Verification & Logical Consistency Check）：独立裁判 LLM 验证推理链；矛盾检测/隐含假设/逻辑跳跃三类问题；多路径一致性检查；OpenClaw 工具中间件集成；高风险工具调用前自动验证；置信度阈值分层策略
+- [145-intelligent-error-classification-retry](lessons/145-intelligent-error-classification-retry.md) - Agent 智能错误分类与差异化重试（Intelligent Error Classification & Differential Retry）：六类错误分类（瞬时/限流/认证/永久/配额/逻辑）；Retry-After 精确等待；Auth Token 刷新；PERMANENT 错误携带 llmHint 让模型自修复；QUOTA 触发模型降级；TypeScript + Python 双版本实现
 
 ## 资源
 
