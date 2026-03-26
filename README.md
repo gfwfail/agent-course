@@ -155,6 +155,7 @@
 - [140-incremental-diff-change-detection](lessons/140-incremental-diff-change-detection.md) - Agent 增量 Diff 与变更检测（Incremental Diff & Change Detection）：指纹+快照+Diff 三层架构；ChangeSet 只传变化给 LLM；游标增量拉取替代全量扫描；适用于监控/同步/邮件/订单 Agent；OpenClaw Heartbeat 实战
 - [141-memory-decay-active-forgetting](lessons/141-memory-decay-active-forgetting.md) - Agent 记忆衰减与主动遗忘（Memory Decay & Active Forgetting）：Ebbinghaus 遗忘曲线数学模型；重要性×使用频率=稳定性；间隔重复强化；LLM 二次裁判防误杀；Redis Sorted Set 管理衰减时间戳；Cron 驱动异步 GC
 - [142-data-lineage-decision-provenance](lessons/142-data-lineage-decision-provenance.md) - Agent 数据血缘追踪与决策溯源（Data Lineage & Decision Provenance）：给每条数据打"出生证明"；LineageNode DAG 模型；工具调用/结果/推理/输出四类节点；祖先链溯源；Redis 持久化；Mermaid 可视化；合规报告生成
+- [143-tool-call-context-propagation](lessons/143-tool-call-context-propagation.md) - Agent 工具调用上下文传播（Tool Call Context Propagation）：AsyncLocalStorage 隐式传递 userId/traceId/permissions；工具函数无需显式传参；中间件自动日志关联；Sub-agent 跨进程序列化传播；Python contextvars 实现；权限装饰器集成
 
 ## 资源
 
