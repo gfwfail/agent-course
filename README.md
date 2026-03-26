@@ -161,6 +161,7 @@
 - [146-chaos-engineering-resilience-testing](lessons/146-chaos-engineering-resilience-testing.md) - Agent 混沌工程与弹性测试（Chaos Engineering & Resilience Testing）：ChaosToolRegistry 透明故障注入（超时/错误/脏数据/慢响应）、弹性测试套件（5大场景）、Python 中间件版本、Cron 驱动定期混沌测试、三条铁律（先爆炸/防回归/优雅降级）
 - [147-timeout-budget-inheritance-cascading-cancellation](lessons/147-timeout-budget-inheritance-cascading-cancellation.md) - Agent 超时预算继承与级联取消（Timeout Budget Inheritance & Cascading Cancellation）：Deadline vs Timeout、DeadlineContext.child() 自动预算分配、AbortController 链、跨进程 deadline 传播、asyncio 版本、OpenClaw Cron 集成、三大陷阱
 - [148-tool-health-probe-auto-degradation](lessons/148-tool-health-probe-auto-degradation.md) - Agent 工具健康探针与自动降级（Tool Health Probe & Auto-Degradation）：主动探针 vs 被动错误处理、HealthStatus 三态机、失败/恢复阈值、降级路由中间件、DB/API 探针实战、Python asyncio 版本、OpenClaw Cron 健康报告集成
+- [149-multi-model-jury-ensemble-voting](lessons/149-multi-model-jury-ensemble-voting.md) - Agent 多模型合议制（Multi-Model Jury & Ensemble Voting）：并发派发多模型、LLM 裁判仲裁、语义投票、快速赢家三种策略、成本控制技巧、Python asyncio 版本、OpenClaw Cron 集成、适用场景分析
 
 ## 资源
 
