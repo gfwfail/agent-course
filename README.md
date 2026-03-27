@@ -162,6 +162,7 @@
 - [147-timeout-budget-inheritance-cascading-cancellation](lessons/147-timeout-budget-inheritance-cascading-cancellation.md) - Agent 超时预算继承与级联取消（Timeout Budget Inheritance & Cascading Cancellation）：Deadline vs Timeout、DeadlineContext.child() 自动预算分配、AbortController 链、跨进程 deadline 传播、asyncio 版本、OpenClaw Cron 集成、三大陷阱
 - [148-tool-health-probe-auto-degradation](lessons/148-tool-health-probe-auto-degradation.md) - Agent 工具健康探针与自动降级（Tool Health Probe & Auto-Degradation）：主动探针 vs 被动错误处理、HealthStatus 三态机、失败/恢复阈值、降级路由中间件、DB/API 探针实战、Python asyncio 版本、OpenClaw Cron 健康报告集成
 - [149-multi-model-jury-ensemble-voting](lessons/149-multi-model-jury-ensemble-voting.md) - Agent 多模型合议制（Multi-Model Jury & Ensemble Voting）：并发派发多模型、LLM 裁判仲裁、语义投票、快速赢家三种策略、成本控制技巧、Python asyncio 版本、OpenClaw Cron 集成、适用场景分析
+- [150-functional-error-handling-result-pattern](lessons/150-functional-error-handling-result-pattern.md) - Agent 函数式错误处理与 Result 模式（Functional Error Handling with Result/Either Pattern）：告别 try-catch 地狱、Ok/Err 类型设计、结构化 AgentError + llmHint、工具链组合 flatMap/andThen、并行工具 Result 聚合、Python dataclass 版本、OpenClaw 工具注册集成
 
 ## 资源
 
