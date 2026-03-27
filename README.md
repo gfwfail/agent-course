@@ -193,3 +193,4 @@
 - OpenClaw + pi SDK 集成
 - Lovable 原理
 - [151-context-aware-rate-limiting](lessons/151-context-aware-rate-limiting.md) - Agent 上下文感知速率限制（Context-Aware Rate Limiting）：动态配额 = 基准 RPS × 用户等级 × 系统负载 × 时间窗口 × 工具类型，令牌桶 + Redis Lua 原子操作，与 Backoff/Backpressure 三课形成完整限流体系
+- [152-websocket-realtime-bidirectional](lessons/152-websocket-realtime-bidirectional.md) - Agent WebSocket 实时双向通信（WebSocket Real-Time Bidirectional Communication）：双向协议设计（run/cancel/input/thinking/tool/output）、Agent Loop 流式进度推送、Human-in-the-loop 挂起等待、AbortController 取消传播、React Hook 客户端实现、SSE vs WebSocket 选型、OpenClaw streamTo:"parent" 原理
