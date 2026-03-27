@@ -192,3 +192,4 @@
 - pi-mono 架构解析
 - OpenClaw + pi SDK 集成
 - Lovable 原理
+- [151-context-aware-rate-limiting](lessons/151-context-aware-rate-limiting.md) - Agent 上下文感知速率限制（Context-Aware Rate Limiting）：动态配额 = 基准 RPS × 用户等级 × 系统负载 × 时间窗口 × 工具类型，令牌桶 + Redis Lua 原子操作，与 Backoff/Backpressure 三课形成完整限流体系
