@@ -200,3 +200,4 @@
 - [156-finetune-dataset-collection](lessons/156-finetune-dataset-collection.md) - Agent 微调数据集自动收集（Automatic Fine-tuning Dataset Collection）：从生产流量自动收集高质量对话，质量评分过滤（工具报错/用户纠正），JSONL 追加写，转换 OpenAI/Anthropic 微调格式，Cron 定期导出上传，小模型替代大模型降成本 10x
 - [157-tool-dependency-injection](lessons/157-tool-dependency-injection.md) - Agent 工具依赖注入与 IoC 容器（Tool Dependency Injection & IoC Container）：工具接口与实现解耦，轻量 IoC Container（bind/resolve/生命周期），生产 vs 测试容器配置，构造函数注入，测试无需真实基础设施，装饰器语法，singleton/transient/scoped 生命周期对比，OpenClaw Skills 即 DI 的落地
 - [158-agent-cicd-pipeline](lessons/158-agent-cicd-pipeline.md) - Agent CI/CD 流水线：自动化测试与持续部署（Agent CI/CD Pipeline）：五层流水线（单元/集成/Eval 回归/Staging/生产），行为漂移检测与基线对比，GitHub Actions 完整配置，控制 CI API 成本的 5 个技巧，CI 关键指标监控与告警
+- [159-tool-result-pagination-cursor](lessons/159-tool-result-pagination-cursor.md) - Agent 工具结果分页与游标（Tool Result Pagination & Cursor）：键集游标 vs OFFSET、标准分页 Schema 设计、上下文预算感知翻页、LLM 自主决策是否继续翻页、流式分页 yield per batch、游标 HMAC 签名防篡改、OpenClaw Gmail 实战
