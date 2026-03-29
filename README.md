@@ -215,3 +215,4 @@
 - [170-approval-gateway-multi-level-auth](lessons/170-approval-gateway-multi-level-auth.md) - Agent 审批网关与多级授权（Approval Gateway & Multi-Level Authorization）：危险工具调用挂起等人工审批、Risk Registry 四级风险策略、Redis 挂起状态机、waitForApproval 轮询、Telegram Inline Buttons 实时审批、CRITICAL 多级审批链、超时自动降级、中间件透明注入，Agent 自主运行但关键节点人类介入
 
 - [171-chaos-engineering-for-agents](lessons/171-chaos-engineering-for-agents.md) - Agent 混沌工程实战（Chaos Engineering for Agents）：故障注入验证系统韧性；ChaosMiddleware 工具层注入（delay/error/timeout/partial）；场景库设计（DB 慢、Search 抖、API 黑洞、残缺数据）；与熔断器/健康检查/告警系统联动验证；混沌游戏日（Game Day）自动化流程；OpenClaw Cron 每周定期实验；Python asyncio 版本；从"主动搞坏"找到生产隐患
+- [172-graphql-integration-patterns](lessons/172-graphql-integration-patterns.md) - Agent GraphQL 集成模式（GraphQL Integration Patterns）：Schema 自内省自动生成工具列表、精准字段选择省 60% token、Subscription 实时数据推送、意图驱动工具列表语义过滤、Zod 运行时类型验证防 Schema 漂移、与 NL2SQL/REST Schema-Driven 的选型对比，GraphQL 是 Agent 集成外部 API 的最佳选择之一
