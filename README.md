@@ -210,3 +210,5 @@
 - [166-tool-call-replay-deterministic-testing](lessons/166-tool-call-replay-deterministic-testing.md) - Agent 工具调用重放与确定性测试（Tool Call Replay & Deterministic Testing）：录制生产工具调用为 Cassette 文件、Replay 引擎代替真实 API 实现离线回归测试、assertAllConsumed() 防止 Agent 少做事、CI 无需网络零成本跑回归、与 PII Masking/CI-CD 流水线集成，真实数据比手写 Mock 复杂 10 倍
 - [167-load-testing-capacity-planning](lessons/167-load-testing-capacity-planning.md) - Agent 压测与容量规划（Load Testing & Capacity Planning）：Agent 系统三大压测难点（有状态/延迟不可预测/Token 成本动态）、k6 脚本模拟并发会话、Locust Python 复杂场景建模、三大瓶颈识别（LLM API/工具执行/存储层）、容量规划公式、OpenClaw Cron 定时压测巡检、真实容量基线参考值
 - [168-tool-call-debouncing](lessons/168-tool-call-debouncing.md) - Agent 工具调用去抖动（Tool Call Debouncing）：消灭重复触发，等安静期再执行；Debounce vs Throttle vs Dedup 三种模式对比；TypeScript/Python 双版本实现；流式 LLM 触发去抖、Webhook 批量到达去抖；Key 设计与取消处理踩坑；与限流/去重体系互补，无效 API 调用减少 70-90%
+
+- [169-user-profiling-personalization](lessons/169-user-profiling-personalization.md) - Agent 多维度用户画像与个性化适配（User Profiling & Personalization）：从交互信号被动推断偏好（详略/专业度/领域/行为）、置信度门控注入 system prompt、Redis + TTL + 衰减存储、隐私最小化护栏（GDPR 被遗忘权）、OpenClaw MEMORY.md 人工版落地，让 Agent 越用越懂你
