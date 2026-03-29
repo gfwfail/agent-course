@@ -213,3 +213,5 @@
 
 - [169-user-profiling-personalization](lessons/169-user-profiling-personalization.md) - Agent 多维度用户画像与个性化适配（User Profiling & Personalization）：从交互信号被动推断偏好（详略/专业度/领域/行为）、置信度门控注入 system prompt、Redis + TTL + 衰减存储、隐私最小化护栏（GDPR 被遗忘权）、OpenClaw MEMORY.md 人工版落地，让 Agent 越用越懂你
 - [170-approval-gateway-multi-level-auth](lessons/170-approval-gateway-multi-level-auth.md) - Agent 审批网关与多级授权（Approval Gateway & Multi-Level Authorization）：危险工具调用挂起等人工审批、Risk Registry 四级风险策略、Redis 挂起状态机、waitForApproval 轮询、Telegram Inline Buttons 实时审批、CRITICAL 多级审批链、超时自动降级、中间件透明注入，Agent 自主运行但关键节点人类介入
+
+- [171-chaos-engineering-for-agents](lessons/171-chaos-engineering-for-agents.md) - Agent 混沌工程实战（Chaos Engineering for Agents）：故障注入验证系统韧性；ChaosMiddleware 工具层注入（delay/error/timeout/partial）；场景库设计（DB 慢、Search 抖、API 黑洞、残缺数据）；与熔断器/健康检查/告警系统联动验证；混沌游戏日（Game Day）自动化流程；OpenClaw Cron 每周定期实验；Python asyncio 版本；从"主动搞坏"找到生产隐患
