@@ -231,3 +231,4 @@
 - [184-goal-anchoring-task-drift-detection](lessons/184-goal-anchoring-task-drift-detection.md) - Agent 目标锚定与任务漂移检测（Goal Anchoring & Task Drift Detection）：长任务中用户经常跑题；GoalAnchor 第一轮提取主目标、DriftDetector（Haiku 轻量检测）评估每轮偏离程度、三档策略（soft_redirect/hard_redirect/confirm_pivot）动态注入引导提示；目标进度写入 memory 跨会话追踪；OpenClaw HEARTBEAT 主动提醒老板回归主线；Agent 是任务伙伴，不是问答机器
 
 - [185-secrets-management-env-security](lessons/185-secrets-management-env-security.md) - Agent 密钥管理与环境变量安全（Secrets Management & Environment Security）：密钥生命周期全覆盖——启动时 Zod 强校验快速失败、依赖注入解耦工具与密钥来源、SecretStore 运行时热轮换 + TTL 过期预警、日志脱敏正则防泄露、最小权限原则；TypeScript/Python 双语实现；OpenClaw TOOLS.md + context 注入密钥管理实战；硬编码密钥 = 在公厕墙上写密码
+- [186-conversation-branching-tree-navigation](lessons/186-conversation-branching-tree-navigation.md) - Agent 会话分支与对话树导航（Conversation Branching & Tree Navigation）：用户随时能"回到岔路口"重新选择；ConversationTree 数据结构实现；决策点自动检测（多选项/用户选择/副作用操作）；自然语言导航命令（回退N步/列出分支/切换分支）；分支间共享与隔离上下文策略；与 Command Pattern Undo 的区别与组合使用
