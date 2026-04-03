@@ -257,3 +257,5 @@
 - [207-response-quality-assessment-auto-scoring](lessons/207-response-quality-assessment-auto-scoring.md) - Agent 响应质量评估与自动评分（Response Quality Assessment & Auto-Scoring）：用 Haiku 作裁判实时评分 Agent 响应；relevance/accuracy/completeness/safety 四维度加权评分；低分自动重试 + 超阈值告警升级；OpenClaw 质量中间件集成；异步评分/批量评分成本控制；与 Evals/Self-Consistency/Output Validation 区别；不要等用户投诉才知道 Agent 说了烂话
 
 - [208-computer-use-agent](lessons/208-computer-use-agent.md) - Agent Computer Use（计算机使用能力）：给 Agent 一双眼睛和手；Anthropic computer_20241022 三大工具（computer/bash/str_replace_editor）；截图观察→LLM决策→工具执行→截图验证的完整循环；TypeScript/Python 双版本实现；与 OpenClaw browser 工具的对比（DOM snapshot vs 截图）；Token 成本控制/安全沙箱/人机协作检查点；Computer Use 是 API 失效时的终极武器
+
+- [209-data-pipeline-etl-patterns](lessons/209-data-pipeline-etl-patterns.md) - Agent 数据管道与 ETL 模式（Data Pipeline & ETL Patterns）：Agent 作为最聪明的 ETL 协调器——Extract（工具执行 I/O）+ Transform（LLM 理解语义）+ Load（幂等写入）三阶段；自动分页 API 提取；Haiku 批量转换（20条/批省成本）；SQLite UPSERT 幂等写入；状态文件断点续传；增量 ETL 时间戳/Cursor 策略；OpenClaw Cron 驱动定时同步；pi-mono 工具集成；TypeScript/Python 双版本；当数据格式多变、Schema 经常变化，Agent ETL 让数据工程有了大脑
