@@ -261,3 +261,5 @@
 - [209-data-pipeline-etl-patterns](lessons/209-data-pipeline-etl-patterns.md) - Agent 数据管道与 ETL 模式（Data Pipeline & ETL Patterns）：Agent 作为最聪明的 ETL 协调器——Extract（工具执行 I/O）+ Transform（LLM 理解语义）+ Load（幂等写入）三阶段；自动分页 API 提取；Haiku 批量转换（20条/批省成本）；SQLite UPSERT 幂等写入；状态文件断点续传；增量 ETL 时间戳/Cursor 策略；OpenClaw Cron 驱动定时同步；pi-mono 工具集成；TypeScript/Python 双版本；当数据格式多变、Schema 经常变化，Agent ETL 让数据工程有了大脑
 
 - [210-user-profiling-personalization](lessons/210-user-profiling-personalization.md) - Agent 用户画像与个性化引擎（User Profiling & Personalization Engine）：千人千面从每次对话中"学"出来；四维画像（专业度/沟通风格/偏好/行为模式）；Haiku 异步提取信号、指数移动平均更新（新信号 30% 权重）；个性化 system prompt 注入（< 100 tokens 额外成本）；3~5 轮后用户可感知适配效果；OpenClaw USER.md = 静态画像，memory/user-profile.json = 动态画像，Heartbeat 定期蒸馏合并；TypeScript/Python 双版本；隐私隔离与用户重置机制；好的 Agent 记得你是谁，用你最舒服的方式和你交流
+
+- [211-tool-return-value-design](lessons/211-tool-return-value-design.md) - Agent 工具返回值设计最佳实践（Tool Return Value Design Best Practices）：工具输出设计决定 LLM 能不能理解结果；反模式（裸 API 响应/只返回布尔/错误信息不具体）；统一结果信封 ToolResult<T>（success/data/error/meta）；错误信息包含 recoverable 标记和 suggestion 行动指引；搜索结果带来源元信息；长内容主动截断并告知获取路径；OpenClaw exec 工具返回值设计对比；7 项设计 Checklist；设计工具返回值时始终问：LLM 读到这个结果，能不能做出正确决策
