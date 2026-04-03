@@ -259,3 +259,5 @@
 - [208-computer-use-agent](lessons/208-computer-use-agent.md) - Agent Computer Use（计算机使用能力）：给 Agent 一双眼睛和手；Anthropic computer_20241022 三大工具（computer/bash/str_replace_editor）；截图观察→LLM决策→工具执行→截图验证的完整循环；TypeScript/Python 双版本实现；与 OpenClaw browser 工具的对比（DOM snapshot vs 截图）；Token 成本控制/安全沙箱/人机协作检查点；Computer Use 是 API 失效时的终极武器
 
 - [209-data-pipeline-etl-patterns](lessons/209-data-pipeline-etl-patterns.md) - Agent 数据管道与 ETL 模式（Data Pipeline & ETL Patterns）：Agent 作为最聪明的 ETL 协调器——Extract（工具执行 I/O）+ Transform（LLM 理解语义）+ Load（幂等写入）三阶段；自动分页 API 提取；Haiku 批量转换（20条/批省成本）；SQLite UPSERT 幂等写入；状态文件断点续传；增量 ETL 时间戳/Cursor 策略；OpenClaw Cron 驱动定时同步；pi-mono 工具集成；TypeScript/Python 双版本；当数据格式多变、Schema 经常变化，Agent ETL 让数据工程有了大脑
+
+- [210-user-profiling-personalization](lessons/210-user-profiling-personalization.md) - Agent 用户画像与个性化引擎（User Profiling & Personalization Engine）：千人千面从每次对话中"学"出来；四维画像（专业度/沟通风格/偏好/行为模式）；Haiku 异步提取信号、指数移动平均更新（新信号 30% 权重）；个性化 system prompt 注入（< 100 tokens 额外成本）；3~5 轮后用户可感知适配效果；OpenClaw USER.md = 静态画像，memory/user-profile.json = 动态画像，Heartbeat 定期蒸馏合并；TypeScript/Python 双版本；隐私隔离与用户重置机制；好的 Agent 记得你是谁，用你最舒服的方式和你交流
