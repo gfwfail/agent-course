@@ -253,3 +253,5 @@
 - [205-tool-granularity-design](lessons/205-tool-granularity-design.md) - Agent 工具粒度设计：原子工具 vs 组合工具（Tool Granularity Design: Atomic vs Composite Tools）：工具太细 LLM 迷失、太粗失去灵活性，找到那条线是工具设计真正的难题；粒度黄金法则（以用户意图为单位/一个工具一个完整小问题）；合并 vs 拆分的决策信号；两层工具架构（原子 Primitives + 场景 Facade）；OpenClaw Skills 粒度实践；pi-mono 工具注册时的粒度检查；上帝工具重构案例（LLM 调用错误率 35%→4%）；工具设计的最终标准：LLM 在真实任务中的工具调用成功率
 
 - [206-multi-turn-history-pruning](lessons/206-multi-turn-history-pruning.md) - Agent 多轮对话历史裁剪策略（Multi-Turn History Pruning）：智能裁剪对话历史精准保留关键上下文；重要性评分（新近度/角色/工具调用/内容密度）+ 工具 call/result 配对原子保护 + 最近 N 轮锁定；三步裁剪流程（评分→标记→按阈值删除）；OpenClaw 长任务/Heartbeat Agent 裁剪配置实战；对比固定滑动窗口/全量摘要/重要性裁剪三种策略；TypeScript/Python 双版本；Context window 是寸土寸金的地产，不是日记本
+
+- [207-response-quality-assessment-auto-scoring](lessons/207-response-quality-assessment-auto-scoring.md) - Agent 响应质量评估与自动评分（Response Quality Assessment & Auto-Scoring）：用 Haiku 作裁判实时评分 Agent 响应；relevance/accuracy/completeness/safety 四维度加权评分；低分自动重试 + 超阈值告警升级；OpenClaw 质量中间件集成；异步评分/批量评分成本控制；与 Evals/Self-Consistency/Output Validation 区别；不要等用户投诉才知道 Agent 说了烂话
