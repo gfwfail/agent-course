@@ -310,4 +310,3 @@ async function finalizeFamilyLockRelease(params: {
 ## 7. 一句话总结
 
 > Agent 护栏恢复的终点不是 active 观察窗口变绿，而是生成可重放的定版收据，并用原子释放收据证明族锁为什么、在什么范围、带着哪些残留约束被解除。
-
