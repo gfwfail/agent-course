@@ -276,4 +276,3 @@ Post-recovery sentinel 有 3 条硬规则：
 3. **可退出**：没有 SentinelExitReceipt 的 sentinel 会变成永久后台负担。
 
 成熟 Agent 的事故关闭，不是“关掉就忘”。它会在恢复后保留一段有限、可解释、可退出的长期哨兵，确认同类问题没有慢慢回到生产路径。
-
